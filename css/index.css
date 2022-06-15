@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    border: 1px;
+    padding: 0;
+    list-style-type: none;
+}
+div{
+    text-align: center;
+}
+.box{
+    width: 100%;
+    height: 450px;
+    margin: 50px auto 20px auto;
+    border-radius: 10px;
+    background-color: rgba(236, 236, 236, 0.59);
+    transition: all 1.0s;
+}
+.right_box{
+    text-align: left;
+    position: absolute;
+    left: 65%;
+    top:20%;
+}
+.left_box{
+    position: absolute;
+    left: 18%;
+    top: 20%;
+}
+.headPicture{
+
+    float: top;
+    width: 100px;
+    height: 100px;
+    margin: 25px 0 0 40px;
+    border-radius: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: red;
+}
+.bg{
+    background-size: cover;
+}
+.font1{
+    flood-color: rgba(0, 255, 255, 0.45);
+    text-align: center;
+    font-family: Castellar, serif;
+    font-size: 25px;
+}
+@font-face {
+    font-family: 'myfont';
+    src: url("../source/myfont.ttf");
+}
+body{
+    /*background: linear-gradient(to right , #7A88FF, #7AFFAF);*/
+    background: url("../source/background.webp") no-repeat;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #000000;
+}
+a{
+    text-decoration:none;
+}
+footer{
+    position: absolute;
+    bottom: 5px;
+    left: 30%;
+}
+.header{
+    position: absolute;
+    top:60px;
+    left: 200px;
+}
+header{
+    position: absolute;
+    top:10px;
+    left: 40%;
+}
+.welcome{
+    text-align: center;
+    color: olivedrab;
+    font-family: 华光中长宋_CNKI, serif;
+}
+.container {
+    width: 300px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 20px;
+
+}
+
+img:hover{
+    transform: scale(1.3);
+}
+svg:hover{
+    transform: scale(1.3);
+}
+li:hover{
+    transform: scale(1.05);
+}
+.box:hover{
+    transform: scale(1.02);
+}
+
+.skills1 {
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    background-color: purple;
+}
+
+.skills2 {
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 80%;
+    background-color: mediumpurple;
+}
+
+.skills3 {
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 75%;
+    background-color: blueviolet;
+}
+.skills4 {
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    background-color: cornflowerblue;
+}
+
+.skills5 {
+    line-height: 0px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 10%;
+    background-color: greenyellow;
+}
+.skills6 {
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 60%;
+    background-color: lightskyblue;
+}
+.skills7 {
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 85%;
+    background-color: rebeccapurple;
+}
+.album{
+    position: absolute;
+    left: 20%;
+    top: 70%;
+}
+.album img{
+    width: 50px;
+}
+.album img:hover{
+    transform: scale(2);
+}
+
+.bnt{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+.button {
+    background-color: transparent; /* Green */
+    border: none;
+    color: transparent;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid lightskyblue;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid lightgreen;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.sentence{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+
+}
+
+.sentence span{
+    font-family: 华光中雅_CNKI, serif;
+    font-size: small;
+    flood-color: orange;
+}

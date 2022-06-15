@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    border: 1px;
+    padding: 0;
+    list-style-type: none;
+}
+
+div{
+    text-align: center;
+}
+.box{
+    width: 50%;
+    height: 500px;
+    margin: 50px auto 20px auto;
+    border-radius: 10px;
+    background-color: rgba(236, 236, 236, 0.59);
+    transition: all 1.0s;
+}
+
+body{
+    /*background: linear-gradient(to right , #7A88FF, #7AFFAF);*/
+    background: url("../source/background3.webp") no-repeat;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    background-size: cover;
+
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #000000;
+}
+footer{
+    position: absolute;
+    bottom: 10%;
+    left: 47%;
+}
+
+.sport{
+    position: absolute;
+    top: 41%;
+    left: 41%;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: larger;
+}
+.sentence{
+    position: absolute;
+    top: 62%;
+    left: 41%;
+    text-align: left;
+    font-family: 'Blackadder ITC', serif;
+    font-size: larger;
+}
+.basic{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+
+}
+.skills{
+    position: absolute;
+    top: 72%;
+    left: 37%;
+    text-align: center;
+    font-family: "Book Antiqua", serif;
+    font-size: larger;
+}
+#pic{
+    float: top;
+    width: 100px;
+    height: 100px;
+    margin: 25px 0 0 40px;
+    border-radius: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+#picBox{
+    position: absolute;
+    top: -2%;
+    left: 43%;
+}
+a{
+    text-decoration:none;
+}
